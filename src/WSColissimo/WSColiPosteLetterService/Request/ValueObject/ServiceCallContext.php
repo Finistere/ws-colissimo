@@ -491,7 +491,7 @@ class ServiceCallContext
     /**
      * @param string $name
      *
-     * @return boolean
+     * @return mixed
      */
     public function __get($name)
     {

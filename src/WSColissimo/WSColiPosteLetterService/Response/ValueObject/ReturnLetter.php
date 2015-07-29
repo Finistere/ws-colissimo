@@ -159,6 +159,7 @@ class ReturnLetter
      * Getter
      *
      * @param string $name
+     * @return mixed
      */
     public function __get($name)
     {

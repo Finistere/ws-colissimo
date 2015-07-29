@@ -23,7 +23,7 @@ class DestEnv
     protected $alert;
 
     /**
-     * @var DestAddress
+     * @var AddressDest
      */
     protected $addressVO;
 
@@ -60,7 +60,7 @@ class DestEnv
     /**
      * Constructor
      *
-     * @param Address $address
+     * @param AddressDest $address
      */
     public function __construct(AddressDest $address = null)
     {
@@ -102,7 +102,7 @@ class DestEnv
     }
 
     /**
-     * @return the DestAddress
+     * @return AddressDest
      */
     public function getAddressVO()
     {
@@ -118,7 +118,7 @@ class DestEnv
     }
 
     /**
-     * @return the boolean
+     * @return boolean
      */
     public function getCodeBarForreference()
     {
@@ -134,7 +134,7 @@ class DestEnv
     }
 
     /**
-     * @return the boolean
+     * @return boolean
      */
     public function getDeliveryError()
     {

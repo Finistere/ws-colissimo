@@ -75,7 +75,7 @@ class Article
     }
 
     /**
-     * @return the float
+     * @return float
      */
     public function getPoids()
     {
@@ -91,7 +91,7 @@ class Article
     }
 
     /**
-     * @return the float
+     * @return float
      */
     public function getValeur()
     {

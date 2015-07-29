@@ -14,7 +14,7 @@ class Client implements ClientInterface
     /**
      * PHP SOAP client for interacting with the WSColiPosteLetterService API
      *
-     * @var SoapClient
+     * @var \SoapClient
      */
     protected $soapClient;
 
@@ -29,8 +29,7 @@ class Client implements ClientInterface
     }
 
     /**
-     * (non-PHPdoc)
-     * @see \WSColissimo\WSColiPosteLetterService\ClientInterface::getLetterColissimo()
+     * @inheritdoc
      */
     public function getLetterColissimo(LetterColissimoRequest $request)
     {
